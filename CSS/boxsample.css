@@ -1,0 +1,22 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    margin: 10px;
+    border: 2px solid black;
+    /* to arrange in horizontal line */
+    /* float: left; */
+}
+#img{
+    background-image: url('https://images.pexels.com/photos/37573774/pexels-photo-37573774.jpeg');
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    border: 2px solid black;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

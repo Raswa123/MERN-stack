@@ -1,0 +1,11 @@
+/* the search engine usually provides a margin for the contents placed in a web page. to remove that set margin 0 in universal selector */
+
+*{
+    margin: 0;
+}
+h1{
+    border: 5px solid black;
+    padding: 10px 20px 30px 20px;
+    /* to create distance between elements or with margin */
+    margin: 50px 20px;
+}
