@@ -1,0 +1,18 @@
+
+.box{
+    width: 250px;
+    height: 250px;
+    background-color: burlywood;
+    border: 2px solid black;
+}
+.row{
+    background-color: wheat;
+    height: 700px;
+    display: flex;
+    /* verical spacing of items */
+    align-items: center;
+    /* horizontal spacing of items */
+    justify-content: space-evenly;
+    /* placing box in column wise */
+    flex-direction: column;
+}
